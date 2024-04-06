@@ -18,6 +18,7 @@
     color: rgb(137, 137, 137);
     text-decoration: none;
     font-weight: 700;
+    font-size: 16px;
     transition: all 0.5s ease;
 }
 .NavbarLink:hover{
@@ -33,8 +34,52 @@
     color: white!important;
 }
 .NavbarLogo{
+    align-items: center;
     display: flex;
     gap: 6px;
     font-size: 28px;
     font-weight: 700;
   }
+  .NavbarToggle{
+    display: none;
+  }
+  @media (max-width: 750px){
+    .Navbar{
+        gap: 30px 0;
+    }
+    .NavbarLinks{
+        display: none;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .NavbarLogo{
+        font-size: 24px;
+    }
+    .NavbarToggle{
+        display: block;
+        font-size: 24px;
+        border: #2a2635 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 40px;
+
+        color: white;
+        cursor: pointer;
+        background-color: #191525;
+    }
+    .MobNav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .Navbar-Show{
+        display: flex;
+        flex-direction: column;
+    }
+    .MobileNav{
+        background: #0e0c16;
+        padding: 32px 20px;
+    }
+}

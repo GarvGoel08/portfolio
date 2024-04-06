@@ -17,6 +17,7 @@
 }
 .SideBar {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   width: 2px;
   background-color: #5918df;

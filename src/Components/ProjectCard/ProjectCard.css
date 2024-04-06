@@ -47,3 +47,17 @@
     font-size: 16px;
     margin-top: 10px;
   }
+
+  @media (max-width: 431px){
+    .projectCard {
+      width: 100%;
+    }
+  }
+  @media (max-width: 450px){
+    .projectCardTitle {
+      font-size: 20px;
+    }
+    .projectCardDescription {
+      font-size: 14px;
+    }
+  }

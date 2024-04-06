@@ -49,3 +49,35 @@
 .MadeByText{
   color: rgb(137, 137, 137);
 }
+
+@media (max-width: 1000px) {
+  .Socials {
+    flex-direction: column;
+  }
+  .SocialLink{
+    width: 100%;
+  }
+}
+@media (max-width: 450px){
+  .contactHead {
+    font-size: 24px;
+  }
+  .SocialText {
+    font-size: 16px;
+  }
+  .SocialImg {
+    width: 22px;
+    height: 22px;
+  }
+  .contactMain {
+  }
+  .Socials {
+    margin-bottom: 40px;
+  }
+  .MadeBy{
+    margin-bottom: 6px;
+  }
+  .MadeByText{
+    font-size: 14px;
+  }
+}
