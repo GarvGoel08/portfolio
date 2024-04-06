@@ -1,0 +1,56 @@
+.heroSideBar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #5918df;
+  left: 0;
+  margin-left: calc(20% - 28px);
+}
+.HeroMain {
+  background-image: url(../../assets/bg.87635d9.webp);
+  color: white;
+  height: 100vh;
+  box-sizing: border-box;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Hero {
+  padding: 0 20%;
+  flex-grow: 1;
+}
+.NameHeading {
+  padding: 0;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+.Name-Start {
+  margin-left: 8px;
+}
+.Name {
+  color: #5918df;
+  transition: all 0.5s ease;
+}
+.Name:hover {
+  color: rgb(144, 84, 255);
+  transform: rotate(360deg);
+}
+.HeroSkills {
+  padding: 0;
+  margin: 0;
+  font-size: 38px;
+  margin-top: 12px;
+}
+.KnowMore {
+  padding: 0;
+  margin: 0;
+  margin-top: 26px;
+  font-size: 16px;
+  color: rgb(137, 137, 137);
+}

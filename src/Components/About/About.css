@@ -1,0 +1,12 @@
+.aboutMain{
+    background-color: #14121c;
+    display: flex;
+    flex-direction: row;
+    padding-left:  calc(20% - 28px);
+    padding-right: 20px;
+    gap: 28px;
+  }
+  .about{
+    flex-grow: 1;
+    margin-top: 26px;
+  }
