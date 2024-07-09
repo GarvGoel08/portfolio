@@ -21,7 +21,7 @@ export default function About() {
     }
     workExperience() {
       return [
-        { "Feb 2024 - Present" : "Web Developer Intern at Neon Shark" }
+        { "Feb 2024 - May 2024" : "Web Developer Intern at Neon Shark" }
       ]
     }
     education() {
