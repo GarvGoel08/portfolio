@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/garv-portfolio/static/css/main.3e18d0a3.css",
+    "main.js": "/garv-portfolio/static/js/main.66d4bb8d.js",
+    "static/js/453.3408969b.chunk.js": "/garv-portfolio/static/js/453.3408969b.chunk.js",
+    "static/media/bg.87635d9.webp": "/garv-portfolio/static/media/bg.87635d9.87635d9d72948eff83a4.webp",
+    "static/media/logo.svg": "/garv-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/garv-portfolio/index.html",
+    "main.3e18d0a3.css.map": "/garv-portfolio/static/css/main.3e18d0a3.css.map",
+    "main.66d4bb8d.js.map": "/garv-portfolio/static/js/main.66d4bb8d.js.map",
+    "453.3408969b.chunk.js.map": "/garv-portfolio/static/js/453.3408969b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e18d0a3.css",
+    "static/js/main.66d4bb8d.js"
+  ]
+}
