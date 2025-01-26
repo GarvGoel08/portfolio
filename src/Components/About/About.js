@@ -21,6 +21,7 @@ export default function About() {
     }
     workExperience() {
       return [
+        { "Dec 2024 - Present" : "Full Stack Development Intern at PocketClass" },
         { "Feb 2024 - May 2024" : "Web Developer Intern at Neon Shark" }
       ]
     }
@@ -41,6 +42,7 @@ export default function About() {
        "MongoDB", 
        "C++", 
        "ReactJS", 
+       "NextJS", 
        "DSA", 
        "ExpressJS"  
       ]
