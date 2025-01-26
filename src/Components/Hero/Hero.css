@@ -12,7 +12,7 @@
 .HeroMain {
   background-image: url(../../assets/bg.87635d9.webp);
   color: white;
-  height: 100vh;
+  height: 100dvh;
   box-sizing: border-box;
   background-position: center;
   display: flex;
