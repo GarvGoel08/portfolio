@@ -22,7 +22,7 @@ export default function Hero() {
       <Navbar />
       <div
         className="heroSideBar"
-        style={{ marginTop: topMargin, height: `calc(100% - ${topMargin}px)` }}
+        style={{ marginTop: topMargin, height: `calc(100vh - ${topMargin}px)` }}
       >
         <div className="sideBarCircle"></div>
       </div>
